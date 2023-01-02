@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    margin: opx;
+}
+.menu{
+    background-color: greenyellow;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left: 60px;
+
+}
+.nav{
+    text-decoration: none;
+    color: blue;
+}
+.nav:hover{
+    font-size: 35px;
+    color: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#title{
+    font-size: 50px;
+    margin-top: 0px;
+    font-family:  'Sevillana', cursive;
+}
+#home{
+    background-image: linear-gradient(to bottom right, rgb(182, 95, 174), yellow,violet );
+}
